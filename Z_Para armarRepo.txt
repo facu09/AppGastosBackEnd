@@ -1,0 +1,30 @@
+1- git init
+	2- git remote add origin https://github.com/facu09/AppGastosBackEnd
+	3- git remote -v  (-->  para verificar url→ esta ok)
+	4- git branch (-->  me dice que estoy en la rama  *master)
+		--> no anduvo 
+			--> tiro un 
+				git status
+	5- git branch -M main (--> renombra a rama mail)
+6- git branch (-->  me dice que estoy en la rama  *main)  // git status
+7- y finalmente tiro para hacer el primer subida del repo entro
+	git push -u origin main
+		--> no naduvo
+			tire un:  git add .
+			luego:   git commit -m "1st commit"
+			final/:    git push -u origin main 
+	
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Luego Adentro del repo en la consolo de vsc para arrancar el proyecto van los clasicos
+tiro unos clasicos:
+
+npm init -y
+npm install --save express
+npm install --save-dev nodemon 
+
+Dentro del package.json
+dentro de sripts (abajo de “test”):
+“dev”: “nodemon app.js” 
+
